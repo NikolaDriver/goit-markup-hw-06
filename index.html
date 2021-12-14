@@ -341,7 +341,9 @@
                             name="user-email" 
                             placeholder="E-mail"
                             required/>
-                        <button type="submit" class="footer-email-button">Подписаться</button>
+                        <button type="submit" class="footer-email-button">Подписаться<span class="button-send-icon"><svg width="24" height="24">
+                            <use href="./images/icons.svg#input-icon-send"></use>
+                        </svg></span></button>
                     </div>
                 </form>
             </div>
@@ -364,6 +366,9 @@
                             class="modal-form-input"
                             required
                             minlength="2"/>
+                            <span><svg class="footer-input-icon" width="15" height="15">
+                                <use href="./images/icons.svg#input-name-icon"></use>
+                            </svg></span>
                     </div>
                     <div class="modal-field">
                         <label for="user-tel" class="modal-label-text">Телефон</label>
@@ -373,6 +378,9 @@
                             name="user-tel" 
                             class="modal-form-input"
                             required/>
+                            <span><svg class="footer-input-icon" width="15" height="15">
+                                <use href="./images/icons.svg#input-tel-icon"></use>
+                            </svg></span>
                     </div>
                         <div class="modal-field">
                         <label for="user-email" class="modal-label-text">Почта</label>
@@ -382,6 +390,9 @@
                                 name="user-email" 
                                 class="modal-form-input"
                                 required/>
+                                <span><svg class="footer-input-icon" width="15" height="15">
+                                    <use href="./images/icons.svg#input-email-icon"></use>
+                                </svg></span>
                         </div>
                         <div class="modal-field">
                             <label for="user-text" class="modal-label-text">Комментарий</label>
@@ -392,6 +403,7 @@
                                     placeholder="Введите текст"
                                 ></textarea>  
                             </div>
+                            <button type="button" class="footer-send-button">Отправить</button>
                         </div>
                     </div>
                 </form>

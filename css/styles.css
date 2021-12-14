@@ -305,10 +305,16 @@ a {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;   
 }
+.modal-close:hover :hover{
+    color:var(--accent-color);
+}
 .is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+}
+.modal-close-icon {
+    Fill: currentColor;
 }
  /*-----------priorities---------*/ 
 
@@ -645,6 +651,10 @@ a {
 
 }
 .footer-email-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 200px;
     height: 50px;
     margin-left: 12px;
@@ -657,13 +667,18 @@ a {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     border:none;
-
+}
+.button-send-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 .footer-subscription-part {
     margin-left: 93px;
 }
 .footer-input-part {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     margin-top: 20px;
 }
 
